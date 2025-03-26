@@ -1,0 +1,72 @@
+@font-face {
+    font-family: basic;
+    src: url(font/LondrinaSolid-Black.ttf);
+}
+
+#maincontent{
+    margin-top: 15.05%;
+    margin-left: 7.55%;
+}
+
+#quickdroid{
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: transparent;
+    height: 343px;
+    width: 343px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 60.66%;
+    background-image: url(assets/index/driod.png);
+}
+
+#quickdroid.pet{
+    background-image: url(assets/index/driodpet.png);
+}
+
+#title{
+    position: absolute;
+    margin-left: 10px;
+}
+
+#namelight{
+    margin-top: 190px;
+    margin-left: 148px;
+    position: absolute;
+}
+
+#bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(assets/index/bg.png);
+}
+
+.textbox{
+    margin-top: 233px;
+    position: absolute;
+    border-radius: 90px;
+    border: 0;
+    width: 396.01px;
+    height: 73.12px;
+    font-family: basic;
+    font-size: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#enter{
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 437px;
+    margin-top: 233px;
+    background-color: transparent;
+    border: 0;
+    width: 220px;
+    height: 184px;
+    background-image: url(assets/index/enterbtn.png);
+}
+
+#enter:hover{
+    background-image: url(assets/index/enterbtnoff.png);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Chat</title>
+    <link rel="stylesheet" href="stylechat.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body id="bg">
+    <div> <!-- BACK BTN -->
+        <button id="backbtn"></button>
+        <img src="assets/chat/back.png" id="backtxt">
+    </div>
+
+    <div id="chatdiv"> <!-- CHAT DIV -->
+
+        <img id="chatbase" src="assets/chat/chatbase.png">
+
+        <!-- TEXTAREA -->
+        <div id="iconFormHolder">
+            <div class="iconload"></div>
+        </div>
+
+        <form id="send-container">
+            <input type="text" placeholder="type something..." id="messageinput">
+            <button type="submit" id="send">send</button>
+
+            <!-- FILE UPLOAD BUTTON -->
+            <label for="uploadbtn" id="upload-label"></label>
+            <input type="file" id="uploadbtn" class="uploadbtdisplay" accept=".txt">
+        </form>
+
+        <!-- MESSAGES AREA -->
+        <div id="chat-container">        
+            <div id="chatarea"></div>
+        </div>
+
+    </div>
+</body>
+</html>

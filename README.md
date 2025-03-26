@@ -6,3 +6,4 @@
 ### ⚪ Custom nicknames (max 8 symbols exept " ")
 ## More info
 ### ⚪ Using socket.io to communicate with server
+### ⚪ Link to site with this project: http://quickchat.duckdns.org

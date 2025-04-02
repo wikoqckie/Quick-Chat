@@ -35,6 +35,7 @@ html, body {
 }
 
 #send{
+    cursor: pointer;
     border-radius: 50px;
     background-color: #A0A0A0;
     letter-spacing: 1px;
@@ -68,8 +69,13 @@ html, body {
     margin-left: 10px;
 }
 
-.uploadbtdisplay {
+#upload-label:hover{
+    background-image: url(assets/chat/uploadoff.png);
+}
+
+.uploadbtdisplay{
     display: none;
+    cursor: pointer;
 }
 
 #chatarea{

@@ -54,25 +54,6 @@ html, body {
     border: 0;
 }
 
-#upload-label {
-    display: inline-block;
-    left: 1115px;
-    top: 625px;
-    width: 80px;
-    height: 80px;
-    background-image: url(assets/chat/upload.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-}
-
-#upload-label:hover{
-    background-image: url(assets/chat/uploadoff.png);
-}
-
 .uploadbtdisplay{
     display: none;
     cursor: pointer;
@@ -156,7 +137,8 @@ html, body {
     position: absolute;
     left: 90px;
     top: 627px;
-    width: 993px;
+    width: 1070px;
+    /* width: 993px; for the code mode*/
     height: 70px;
     border-radius: 40px;
     border: 0;
